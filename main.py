@@ -31,7 +31,7 @@ else:
 def read_root():
     return {"message": "Water Intake Prediction API"}
 
-@app.post("/predict", methods=["POST","GET"])
+@app.post("/predict")
 def predict_water_intake(data: WaterIntakeInput):
     # Encoding map
     gender_map = {'Male': 1, 'Female': 0}
