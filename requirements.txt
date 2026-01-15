@@ -3,4 +3,3 @@ uvicorn
 scikit-learn
 pandas
 joblib
-fbprophet; platform_system!="Windows"
